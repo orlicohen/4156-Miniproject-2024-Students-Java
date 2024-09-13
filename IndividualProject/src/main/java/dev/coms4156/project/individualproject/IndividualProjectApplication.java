@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * Class contains all the startup logic for the application.
  *
- * <p>DO NOT MODIFY ANYTHING BELOW THIS POINT WITH REGARD TO FUNCTIONALITY
+ * <p>DO NOT MODIFY ANYTHING BELOW THIS POINT WITH REGARD TO FUNCTIONALITY 
  * YOU MAY MAKE STYLE/REFACTOR MODIFICATIONS AS NEEDED
  */
 @SpringBootApplication
@@ -297,7 +297,7 @@ public class IndividualProjectApplication implements CommandLineRunner {
     }
   }
 
-  //Database Instance
+  // Database Instance
   public static MyFileDatabase myFileDatabase;
   private static boolean saveData = true;
 }
