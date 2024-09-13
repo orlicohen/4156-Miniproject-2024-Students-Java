@@ -4,9 +4,9 @@ import java.io.Serial;
 import java.io.Serializable;
 
 /**
- * Represents a class within a department. This class stores information about
- * the course, including the instructor name, location, time slot, capacity, and 
- * number of enrolled students. 
+ * Class representing a course within a department in an educational institution.
+ * This class stores information about the course, including its instructor name,
+ * location, time slot, enrolled student count and capacity.
  */
 public class Course implements Serializable {
 
@@ -36,7 +36,6 @@ public class Course implements Serializable {
       enrolledStudentCount++;
       return true;
     }
-
     return false;
   }
 
@@ -87,8 +86,8 @@ public class Course implements Serializable {
   }
 
   public String toString() {
-    return "\nInstructor: " + instructorName + "; Location: " + courseLocation + "; Time: "
-        + courseTimeSlot;
+    return "\nInstructor: " + instructorName +  "; Location: "  + courseLocation 
+            +  "; Time: " + courseTimeSlot;
   }
 
   /**

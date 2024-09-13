@@ -10,7 +10,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ContextConfiguration;
 
 /**
- * Unit tests for Course class.
+ * Class containing unit tests for the Course class. 
  */
 @SpringBootTest
 @ContextConfiguration
@@ -21,7 +21,8 @@ public class CourseUnitTests {
    */
   @BeforeAll
   public static void setupCourseForTesting() {
-    testCourse = new Course("Griffin Newbold", "417 IAB", "11:40-12:55", 250);
+    testCourse = new Course("Griffin Newbold", "417 IAB",
+                           "11:40-12:55", 250);
   }
 
 
